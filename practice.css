@@ -1,0 +1,388 @@
+# CompanySite
+html{
+	background-color: #232b2b ;
+}
+body{
+	margin: 0;
+}
+ul.nav a:hover:not(active)
+{
+	background-color: #1BD51B;
+}
+.nav
+{ 
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #232b2b;
+
+}
+.nav li {
+	float: left;
+}
+.nav li a {
+	padding: 14px 16px;
+	display: block;
+	text-decoration: none;
+	color: #EEF8EE;
+	font-family: Gothic A1;
+	font-weight: bold;
+	text-align: center;
+}
+.container {
+	background-color: #EEF8EE;
+	margin: 15px;
+}
+.jumbotron p{
+	font-family: Gothic A1;
+}
+.jumbotron{
+	padding: 5px;
+	background-color: ;
+	font-family: Happy Monkey; 
+}
+button{
+	background-color: #1BD51B;
+  	border: none;
+  	color: white;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	font-family: sans-serif;
+}
+.fa-cloud{
+	color: #1BD51B;
+}
+.hr {
+	margin: 20px;
+	border:4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+.fa-facebook { 
+ 	background: #3B5998;
+ 	color: white;
+}
+.fa-twitter{
+	background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.grid {
+  margin: 15px;
+  background-color: #232b2b;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.double-column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+}
+
+.first {
+	
+	font-family: Happy Monkey;
+	text-align: center;
+	background-color: #EEF8EE;
+	height: 150px;
+}
+.second {
+	
+	background-color: #232b2b;
+  	height: 150px;
+}
+.third {
+	
+  	background-color: #232b2b;
+  	height: 150px;
+}
+.a{
+	
+	background-color: #232b2b;
+	height: 300px;
+}
+.b{
+	
+	background-color: #EEF8EE ;
+	height: 300px;
+}
+.c{
+	
+	background-color: #232b2b;
+	height: 200px;
+}
+.d{
+	
+	background-color: #232b2b;
+	height: 200px;
+	
+}
+.store {
+	height: 300px;
+}
+.store .greenhouseIMG{
+	
+	width: 100%;
+	height: 100%; 
+	max-width: 200px;
+	float: right;
+}
+.store button {
+    float: top; 
+}
+.middle {
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+  	opacity: 0;
+  	transition: .5s ease;
+  	background-color: gray;
+}
+.store h2{
+	font-family: Happy Monkey;
+	color: ;
+}
+.store h2{
+	margin:10px;
+}
+.store p {
+	font-family: Gothic A1;
+	text-align: center;
+  	padding: 16px 32px;
+}
+.store button {
+	margin-left: 20px; 
+}
+	
+.container1:hover .middle {
+ 	opacity: .85;
+}
+.container1 h2 p{
+	color: ;
+}
+.container1 h2{
+	font-family: Happy Monkey;
+	padding-left: 10px;
+}
+.container1 p {
+	font-family: Gothic A1;
+	text-align: center;
+  	padding: 16px 32px;
+}
+
+.container1 {
+  position: relative;
+	height: 150px;
+}
+
+.container1 img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	display: block;
+	width: 100%;
+	height: 150px;
+}
+.container2:hover .middle {
+  opacity: .85;
+}
+.container1 h2 p{
+	font-family: Gothic A1;
+	color: ;
+}
+.container2 h2{
+	font-family: Happy Monkey;
+	padding-left: 10px;
+}
+.container2 p {
+	text-align: center;
+  	padding: 16px 32px;
+}
+
+.container2 {
+  position: relative;
+	height: 150px;
+}
+
+.container2 img {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 250px;
+	display: block;
+ 	width: 100%;
+	height: 150px;
+}
+.container3:hover .middle {
+  opacity: .85;
+}
+
+.container3 h2 p{
+	color: ;
+}
+.container3 h2{
+	font-family: Happy Monkey;
+	padding-left: 10px;
+}
+.container3 p {
+	font-family: Gothic A1;
+	text-align: center;
+  	padding: 16px 32px;
+}
+.container3 {
+  	position: relative;
+	height: 150px;
+}
+
+.container3 img {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 250px; 
+	display: block;
+	width: 100%;
+	height: 300px;
+}
+.container4:hover .middle {
+  opacity: .85;
+}
+
+.container4 h2{
+	font-family: Happy Monkey;
+	color: ;
+}
+.container4 h2{
+	padding-left: 10px;
+}
+.container4 p {
+	font-family: Gothic A1;
+	text-align: center;
+  	padding: 16px 32px;
+}
+.container4 {
+	
+  position: relative;
+	height: 150px;
+}
+
+.container4 img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 350px;
+	width: 100%;
+	height: 200px;
+}
+.container5:hover .middle {
+  opacity: .85;
+}
+
+.container5 h2 p{
+	font-family: Gothic A1;
+	color: ;
+}
+.container5 h2{
+	font-family: Happy Monkey;
+	padding-left: 10px;
+}
+.container5 p {
+	font-family: Gothic A1;
+	text-align: center;
+  	padding: 16px 32px;
+}
+.container5 {
+  position: relative;
+	height: 200px;
+}
+
+.container5 img {
+	margin-left: auto;
+	margin-right: auto;
+  	display: block;
+	width: 100%;
+	height: 200px;
+	max-width: 250px;
+}
+
+
+footer{
+	font-family: sans-serif;
+	height: 200px;
+	background-color: #EEF8EE; 
+	margin: 0; 
+	text-align: center; 
+	display: flex;
+  	align-items: center;
+	justify-content: center;
+}
+footer strong ul{
+	text-align: center; 
+}
+.footer strong{
+	margin: 10px; 
+    font-weight: bold;
+}
+.footer{
+    width: 320px;
+	text-align: center;
+	padding: 20px;
+}
+.footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li {
+    width: 160px;
+    float: left;
+}
+
+
+@media screen and (min-width: 500px) {
+  .column {
+    flex: 1
+  }
+	.double-column {
+    flex: 2
+  }
+
+}
+@media screen and (max-width: 750px) {
+	
+	nav li .account, .nav li{
+		text-align: center;
+		float: none;  
+	}	
+	
+}
